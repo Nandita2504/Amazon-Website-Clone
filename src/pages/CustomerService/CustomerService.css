@@ -1,0 +1,99 @@
+.customer-service {
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+
+.cs-header h1 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.cs-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin-bottom: 60px;
+}
+
+.cs-card {
+    background-color: white;
+    padding: 30px;
+    border-radius: var(--radius);
+    border: 1px solid var(--border-color);
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    transition: var(--transition);
+    cursor: pointer;
+}
+
+.cs-card:hover {
+    border-color: var(--accent);
+    box-shadow: var(--shadow-sm);
+}
+
+.cs-card-info h3 {
+    margin-bottom: 8px;
+    font-size: 1.1rem;
+}
+
+.cs-card-info p {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+}
+
+.faq-section {
+    background-color: white;
+    padding: 40px;
+    border-radius: var(--radius);
+    border: 1px solid var(--border-color);
+    margin-bottom: 40px;
+}
+
+.faq-section h2 {
+    margin-bottom: 30px;
+}
+
+.faq-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.faq-item {
+    border-bottom: 1px solid #eee;
+}
+
+.faq-question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+    cursor: pointer;
+    font-weight: 600;
+    transition: color 0.2s;
+}
+
+.faq-question:hover {
+    color: var(--accent);
+}
+
+.faq-answer {
+    padding: 10px 0 20px 0;
+    color: var(--text-secondary);
+    line-height: 1.6;
+}
+
+.contact-support {
+    text-align: center;
+}
+
+.contact-btn {
+    margin-top: 20px;
+    background-color: var(--secondary);
+    padding: 12px 30px;
+    border-radius: var(--radius);
+    font-weight: 600;
+}

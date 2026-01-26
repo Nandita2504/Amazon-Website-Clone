@@ -1,0 +1,299 @@
+[
+    {
+        "id": 1,
+        "title": "Premium Ultrabook X1 - 14\" Touchscreen",
+        "price": 54999,
+        "category": "Electronics",
+        "rating": 4.8,
+        "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=800&q=80",
+        "description": "Powerful ultrabook with 16GB RAM, 512GB SSD, and a stunning 4K touchscreen display. Perfect for professionals and creators who demand performance on the go.",
+        "stock": 15,
+        "reviews": [
+            {
+                "user": "Alex G.",
+                "comment": "Blazing fast performance! The screen is gorgeous.",
+                "rating": 5
+            },
+            {
+                "user": "Sarah J.",
+                "comment": "Great build quality, though the battery life could be slightly better.",
+                "rating": 4
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Acoustix Noise Cancelling Wireless Headphones",
+        "price": 3499,
+        "category": "Electronics",
+        "rating": 4.5,
+        "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=800&q=80",
+        "description": "Experience pure sound with active noise cancellation, 40-hour battery life, and superior comfort for long listening sessions.",
+        "stock": 25,
+        "reviews": [
+            {
+                "user": "Mike R.",
+                "comment": "The cancellation is top-notch. I use them for every flight.",
+                "rating": 5
+            },
+            {
+                "user": "Emma L.",
+                "comment": "Very comfortable for long hours.",
+                "rating": 4
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Zenith Smart Watch Series 5 - Sport Edition",
+        "price": 2499,
+        "category": "Wearables",
+        "rating": 4.2,
+        "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=800&q=80",
+        "description": "Track your fitness, heart rate, and notifications with style. Water-resistant and features a revolutionary 5-day battery life.",
+        "stock": 50,
+        "reviews": [
+            {
+                "user": "David K.",
+                "comment": "The fitness tracking is very accurate.",
+                "rating": 4
+            },
+            {
+                "user": "Lisa M.",
+                "comment": "Beautiful design, looks like a premium watch.",
+                "rating": 5
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "title": "ProShot DSLR 4K Camera Bundle",
+        "price": 38999,
+        "category": "Electronics",
+        "rating": 4.9,
+        "image": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=800&q=80",
+        "description": "Capture stunning 4K videos and high-resolution photos with this professional DSLR camera. Includes 18-55mm lens and carrying case.",
+        "stock": 10,
+        "reviews": [
+            {
+                "user": "Chris P.",
+                "comment": "Insane detail in the shots. The best camera in its price range.",
+                "rating": 5
+            },
+            {
+                "user": "Anna S.",
+                "comment": "A bit heavy, but definitely worth it for the quality.",
+                "rating": 5
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "title": "ErgoComfort Professional Office Chair",
+        "price": 8999,
+        "category": "Furniture",
+        "rating": 4.6,
+        "image": "https://images.unsplash.com/photo-1505843490538-5133c6c7d0e1?auto=format&fit=crop&w=800&q=80",
+        "description": "Ergonomic design with adjustable lumbar support, 4D armrests, and high-quality breathable mesh for all-day comfort.",
+        "stock": 20,
+        "reviews": [
+            {
+                "user": "Tom B.",
+                "comment": "My back pain disappeared after a week of using this chair.",
+                "rating": 5
+            },
+            {
+                "user": "John D.",
+                "comment": "Very sturdy and easy to assemble.",
+                "rating": 4
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "title": "Apex Mechanical RGB Gaming Keyboard",
+        "price": 2999,
+        "category": "Electronics",
+        "rating": 4.7,
+        "image": "https://images.unsplash.com/photo-1511467687858-23d96c32e4ae?auto=format&fit=crop&w=800&q=80",
+        "description": "Tactile switches, customizable per-key RGB lighting, and durable aircraft-grade aluminum frame for the ultimate gaming experience.",
+        "stock": 35,
+        "reviews": [
+            {
+                "user": "Kevin G.",
+                "comment": "The typing feel is satisfying. The RGB is really bright.",
+                "rating": 5
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "title": "Sonic Home Smart Speaker Plus",
+        "price": 1999,
+        "category": "Electronics",
+        "rating": 4.4,
+        "image": "https://images.unsplash.com/photo-1589003077984-894e133dabab?auto=format&fit=crop&w=800&q=80",
+        "description": "Crystal clear 360-degree sound with built-in voice assistant. Control your entire smart home with simple voice commands.",
+        "stock": 40,
+        "reviews": [
+            {
+                "user": "Zoe W.",
+                "comment": "Small but powerful sound.",
+                "rating": 4
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "title": "Velocity Pro Running Shoes",
+        "price": 2499,
+        "category": "Fashion",
+        "rating": 4.3,
+        "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=800&q=80",
+        "description": "Lightweight, breathable, and reactive running shoes designed for maximum comfort and explosive speed on any terrain.",
+        "stock": 60,
+        "reviews": [
+            {
+                "user": "Ryan F.",
+                "comment": "Perfect fit and very cushiony for long runs.",
+                "rating": 5
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "title": "Modern Minimalist Coffee Table",
+        "price": 5499,
+        "category": "Furniture",
+        "rating": 4.5,
+        "image": "https://images.unsplash.com/photo-1533090161767-e6ffed986c88?auto=format&fit=crop&w=800&q=80",
+        "description": "Sleek and sturdy coffee table with a natural oak finish. Perfect for modern living rooms.",
+        "stock": 12,
+        "reviews": [
+            {
+                "user": "Laura H.",
+                "comment": "Fits perfectly in my apartment. Very easy to clean.",
+                "rating": 5
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "title": "Canvas Designer Backpack",
+        "price": 1499,
+        "category": "Fashion",
+        "rating": 4.2,
+        "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=800&q=80",
+        "description": "Durable water-resistant canvas backpack with leather accents. Includes a padded 15\" laptop sleeve.",
+        "stock": 30,
+        "reviews": [
+            {
+                "user": "Ben T.",
+                "comment": "stylish and practical for college.",
+                "rating": 4
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "title": "Ultra-Wide 34\" Curved Gaming Monitor",
+        "price": 24999,
+        "category": "Electronics",
+        "rating": 4.8,
+        "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?auto=format&fit=crop&w=800&q=80",
+        "description": "Immersive 144Hz curved display with 1ms response time and HDR support for stunning visuals.",
+        "stock": 8,
+        "reviews": [
+            {
+                "user": "Steve V.",
+                "comment": "This monitor changed my gaming experience. So wide!",
+                "rating": 5
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "title": "Nordic Style Ceramic Dinner Set",
+        "price": 2999,
+        "category": "Home",
+        "rating": 4.6,
+        "image": "https://images.unsplash.com/photo-1610701596007-11502861dcfa?auto=format&fit=crop&w=800&q=80",
+        "description": "Handcrafted ceramic dinner set for four. Matte finish in soft charcoal gray.",
+        "stock": 18,
+        "reviews": [
+            {
+                "user": "Maria G.",
+                "comment": "Very elegant. They look much more expensive than they are.",
+                "rating": 5
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "title": "Smart Air Purifier - HEPA Filter",
+        "price": 5999,
+        "category": "Home",
+        "rating": 4.7,
+        "image": "https://images.unsplash.com/photo-1730299789489-b55bf96b22bf?auto=format&fit=crop&w=765&q=80",
+        "description": "Removes 99.97% of allergens and dust. Super quiet operation with mobile app control.",
+        "stock": 22,
+        "reviews": [
+            {
+                "user": "Jake D.",
+                "comment": "My allergies have improved significantly. Highly recommend.",
+                "rating": 5
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "title": "Luxe Cotton Sheet Set - King Size",
+        "price": 1299,
+        "category": "Home",
+        "rating": 4.4,
+        "image": "https://images.unsplash.com/photo-1629198688000-71f23e745b6e?auto=format&fit=crop&w=800&q=80",
+        "description": "Soft 600-thread-count long-staple cotton for a cool and comfortable night's sleep.",
+        "stock": 45,
+        "reviews": [
+            {
+                "user": "Sophie L.",
+                "comment": "So soft! Feels like a hotel bed.",
+                "rating": 5
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "title": "Minimalist Desk Lamp - LED",
+        "price": 999,
+        "category": "Furniture",
+        "rating": 4.5,
+        "image": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=800&q=80",
+        "description": "Adjustable brightness and color temperature. USB charging port included in the base.",
+        "stock": 35,
+        "reviews": [
+            {
+                "user": "Nathan P.",
+                "comment": "Great for my late-night study sessions.",
+                "rating": 4
+            }
+        ]
+    },
+    {
+        "id": 16,
+        "title": "Classic Leather Chelsea Boots",
+        "price": 3499,
+        "category": "Fashion",
+        "rating": 4.6,
+        "image": "https://images.unsplash.com/photo-1638247025967-b4e38f787b76?auto=format&fit=crop&w=800&q=80",
+        "description": "Handcrafted genuine leather boots with elastic side panels and durable Goodyear welt.",
+        "stock": 15,
+        "reviews": [
+            {
+                "user": "Marcus F.",
+                "comment": "Fit true to size and look very sharp.",
+                "rating": 5
+            }
+        ]
+    }
+]

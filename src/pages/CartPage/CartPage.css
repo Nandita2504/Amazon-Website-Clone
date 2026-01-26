@@ -1,0 +1,244 @@
+.cart-page {
+    display: flex;
+    gap: 20px;
+    padding: 30px 20px;
+}
+
+.cart-left {
+    flex: 3;
+    background-color: var(--surface);
+    padding: 20px;
+    border-radius: var(--radius);
+}
+
+.cart-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.cart-header h1 {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.clear-cart-link {
+    color: #007185;
+    background: transparent;
+    font-size: 14px;
+    margin-left: 20px;
+    align-self: flex-end;
+    margin-bottom: 5px;
+}
+
+.clear-cart-link:hover {
+    text-decoration: underline;
+    color: var(--accent);
+}
+
+.cart-items {
+    display: flex;
+    flex-direction: column;
+}
+
+.cart-item {
+    display: flex;
+    gap: 20px;
+    padding: 20px 0;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.item-image {
+    width: 180px;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item-image img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.item-details {
+    flex: 1;
+}
+
+.item-info-top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.item-title {
+    font-size: 18px;
+    font-weight: 600;
+    width: 80%;
+}
+
+.item-price {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.item-stock {
+    font-size: 12px;
+    color: var(--success);
+    margin-bottom: 15px;
+}
+
+.item-actions {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.quantity-controls {
+    display: flex;
+    align-items: center;
+    background-color: #f0f2f2;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(15, 17, 17, .15);
+    border: 1px solid #d5d9d9;
+}
+
+.quantity-controls button {
+    padding: 5px 10px;
+    background: transparent;
+}
+
+.quantity-controls span {
+    padding: 0 10px;
+    font-weight: 600;
+}
+
+.action-divider {
+    width: 1px;
+    height: 14px;
+    background-color: #ddd;
+}
+
+.delete-btn {
+    color: #007185;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    font-size: 13px;
+}
+
+.delete-btn:hover {
+    text-decoration: underline;
+    color: var(--danger);
+}
+
+.action-link {
+    color: #007185;
+    background: transparent;
+    font-size: 13px;
+}
+
+.action-link:hover {
+    text-decoration: underline;
+}
+
+.cart-footer {
+    text-align: right;
+    padding-top: 20px;
+    font-size: 18px;
+}
+
+.cart-right {
+    flex: 1;
+}
+
+.checkout-card {
+    background-color: var(--surface);
+    padding: 20px;
+    border-radius: var(--radius);
+    position: sticky;
+    top: 90px;
+}
+
+.subtotal-msg {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.gift-checkbox {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.checkout-btn {
+    background-color: var(--secondary);
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: 600;
+    box-shadow: 0 2px 5px rgba(213, 217, 217, .5);
+}
+
+.checkout-btn:hover {
+    background-color: #f7ca00;
+}
+
+.cart-empty {
+    padding: 100px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.empty-content {
+    background-color: var(--surface);
+    padding: 50px;
+    border-radius: var(--radius);
+    text-align: center;
+    max-width: 600px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.shop-link {
+    background-color: var(--secondary);
+    padding: 10px 25px;
+    border-radius: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+@media (max-width: 992px) {
+    .cart-page {
+        flex-direction: column;
+    }
+
+    .cart-right {
+        order: -1;
+    }
+}
+
+@media (max-width: 576px) {
+    .cart-item {
+        flex-direction: column;
+    }
+
+    .item-image {
+        width: 100%;
+        height: 150px;
+    }
+
+    .item-title {
+        width: 100%;
+    }
+}

@@ -1,0 +1,149 @@
+.sell-page {
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+
+.sell-hero {
+    background-color: var(--primary);
+    color: white;
+    padding: 80px 40px;
+    border-radius: var(--radius);
+    margin-bottom: 60px;
+}
+
+.sell-hero-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 40px;
+}
+
+.sell-hero-text h1 {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+    line-height: 1.1;
+}
+
+.sell-hero-text p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    color: #ccc;
+}
+
+.start-selling-btn {
+    background-color: var(--secondary);
+    color: var(--primary);
+    padding: 15px 40px;
+    border-radius: 30px;
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+.pricing-note {
+    margin-top: 15px;
+    font-size: 0.9rem !important;
+    color: #999 !important;
+}
+
+.why-sell {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.why-sell h2 {
+    font-size: 2.2rem;
+    margin-bottom: 40px;
+}
+
+.perks-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
+}
+
+.perk h3 {
+    margin: 15px 0;
+    font-size: 1.3rem;
+}
+
+.onboarding-steps {
+    margin-bottom: 80px;
+}
+
+.onboarding-steps h2 {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.steps-list {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.step-item {
+    display: flex;
+    gap: 25px;
+    align-items: flex-start;
+    background-color: white;
+    padding: 30px;
+    border-radius: var(--radius);
+    border: 1px solid var(--border-color);
+}
+
+.step-num {
+    background-color: var(--primary);
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    flex-shrink: 0;
+}
+
+.dashboard-preview {
+    background-color: #37475a;
+    color: white;
+    padding: 60px;
+    border-radius: var(--radius);
+    text-align: center;
+}
+
+.preview-content h2 {
+    margin: 15px 0;
+}
+
+.dummy-stats {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+
+.stat {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px 40px;
+    border-radius: var(--radius);
+}
+
+.stat span {
+    display: block;
+    font-size: 0.9rem;
+    color: #ccc;
+    margin-bottom: 5px;
+}
+
+.stat strong {
+    font-size: 1.5rem;
+}
+
+@media (max-width: 900px) {
+    .sell-hero-grid {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+}
