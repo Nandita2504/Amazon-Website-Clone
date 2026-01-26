@@ -1,16 +1,98 @@
-# React + Vite
+# Amazon Clone (Frontend)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple Amazon-inspired e-commerce frontend built using React and Vite.
+The project focuses on clean UI, routing, and basic cart functionality.
 
-Currently, two official plugins are available:
+## Features
+- Product listing with categories
+- Search and category-based filtering
+- Product detail page
+- Shopping cart with quantity management
+- Cart data persisted using localStorage
+- Dedicated pages:
+  - Home
+  - Today’s Deals
+  - Customer Service
+  - Registry
+  - Gift Cards
+  - Sell
+- Responsive design for mobile and desktop
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Tech Stack
 
-## React Compiler
+### Frontend
+- **React 18.3.1** - UI library
+- **React Router DOM 7.1.3** - Client-side routing
+- **Vite 7.3.1** - Build tool and dev server
+- **Lucide React** - Modern icon library
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Styling
+- **Vanilla CSS** - Custom styles with CSS variables
+- **CSS Grid & Flexbox** - Responsive layouts
+- **CSS Animations** - Smooth transitions and effects
 
-## Expanding the ESLint configuration
+### State Management
+- **React Context API** - Global cart state
+- **localStorage** - Persistent cart data
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Data
+- **JSON** - Local product database
+- **No backend required** - Pure frontend architecture
+
+## 📁 Project Structure
+
+```
+amazon-clone/
+├── public/                 # Static assets
+├── src/
+│   ├── components/        # Reusable components
+│   │   ├── Navbar/       # Navigation bar
+│   │   └── ProductCard/  # Product display card
+│   ├── context/          # React Context for state management
+│   │   └── CartContext.jsx
+│   ├── data/             # JSON data source
+│   │   └── products.json
+│   ├── pages/            # Page components
+│   │   ├── Home/
+│   │   ├── CartPage/
+│   │   ├── ProductDetail/
+│   │   ├── Deals/
+│   │   ├── CustomerService/
+│   │   ├── Registry/
+│   │   ├── GiftCards/
+│   │   └── Sell/
+│   ├── styles/           # Global styles
+│   │   └── global.css
+│   ├── App.jsx           # Main app component
+│   └── main.jsx          # Entry point
+├── index.html
+├── package.json
+├── vite.config.js
+└── vercel.json           # Vercel deployment config
+```
+## Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/yourusername/amazon-clone.git
+   cd amazon-clone
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Start development server**
+   ```bash
+   npm run dev
+   ```
+
+4. **Open in browser**
+   ```
+   http://localhost:5173
+   ```
+
+
+
+
